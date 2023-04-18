@@ -1,0 +1,17 @@
+1 
+git init
+- master branch
+aaa.txt 파일 111내용 추가 commit (V 0.0 master's init)
+bbb.txt 파일 222내용 추가 commit (V 0.1 master's add bbb.txt)
+
+dev1 branch 추가
+dev1 branch 로 switch 이후 ccc.txt파일 추가(V 0.2 dev's add ccc.txt)
+master  branch로 switch 이후 merge 진행(기본 fast-forward merge) 
+master에서 bbb에 2번째 라인에 master-333 을 추가하고 commit(V 0.3 mster's modified bbb.txt)
+dev1 으로 switch 한 다음  bbb에 2번째 라인에 dev-444 을 추가하고 commit(V 0.3 dev's modified bbb.txt)
+master로 switch 한 다음 dev내용을 병합... 과정에서 충돌 확인하고 수정한다음 merge --continue진행 합니다
+dev1에서 head의 위치를 master로 옮기는 작업진행합니다.
+
+
+
+
